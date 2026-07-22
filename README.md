@@ -2,8 +2,6 @@
 
 Analisi completa della ripetibilità delle misurazioni MAMMOWAVE su 9 pazienti, 180 acquisizioni, 5 metriche, 6 fasi e 4 coppe.
 
-> **Nota sulla versione**: questo documento è basato sulla versione **V3 Definitiva** del report (dataset corretto: flag qualità aggiornati, età corrette, `Cup_Role` corretto per la paziente 800X). I numeri riportati qui sostituiscono quelli di eventuali analisi preliminari — in particolare, la correlazione tra età e metriche, inizialmente marginale/significativa, **non risulta più statisticamente significativa** dopo le correzioni.
-
 ## Indice
 
 - [Sintesi delle correzioni applicate](#sintesi-delle-correzioni-applicate)
@@ -357,7 +355,7 @@ Le visualizzazioni multi-metrica mostrano il profilo normalizzato delle cinque m
 
 ## 11. Conclusioni
 
-- **Il segnale non è rumore casuale.** Tutte le metriche distinguono le pazienti con p<0.00001; `max_n` spiega l'80.1% della varianza attribuibile all'identità della paziente.
+- **Il segnale.** Tutte le metriche distinguono le pazienti con p<0.00001; `max_n` spiega l'80.1% della varianza attribuibile all'identità della paziente.
 - **max2avg è la metrica più stabile.** CV% 7.88% intra-sessione, 9.48% inter-sessione e ratio ×1.20 indicano robustezza al riposizionamento.
 - **max_n è la metrica più discriminante ma più sensibile.** Ha η²=0.801, ma aumenta la variabilità tra sessioni e risente maggiormente della coppa.
 - **La III teflon è la coppa più stabile.** Mostra CV% 7.16% per max_n e 6.66% per max2avg; è statisticamente equivalente alla Base nei valori, ma più stabile.
@@ -389,5 +387,5 @@ Le visualizzazioni multi-metrica mostrano il profilo normalizzato delle cinque m
 ## Fonti
 
 Questo README è stato compilato a partire da due documenti:
-- `MAMMOWAVE_Report_Ripetibilita_V3_Definitivo.docx` — report definitivo con dataset corretto (fonte primaria dei dati riportati qui).
+- `MAMMOWAVE_Report_Ripetibilita_V3_Definitivo.docx` — report definitivo con dataset corretto.
 - `MAMMOWAVE_Risultati_Completi_Grafici.docx` — analisi preliminare con grafici estesi, usata come riferimento incrociato.
