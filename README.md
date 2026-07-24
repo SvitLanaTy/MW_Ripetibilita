@@ -285,7 +285,7 @@ L'indice eta-quadro (η²) misura la quota di varianza spiegata dall'identità d
 
 ### 7.3 Asimmetria LEFT/RIGHT
 
-L'asimmetria è calcolata come `(LEFT−RIGHT)/media×100`. Le differenze più marcate su max_n sono osservate in 100X e 500X, con seno destro più alto.
+L'asimmetria è calcolata come `(LEFT−RIGHT)/media×100`. Esiste una marcata asimmetria LEFT/RIGHT a livello individuale, ma la direzione dell'asimmetria non è costante tra i soggetti.
 
 ### Tabella 15 — Asimmetria tra seno sinistro e destro
 
