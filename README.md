@@ -121,7 +121,7 @@ Legenda CV%: **<10%** ottimo · **10–15%** buono · **15–25%** moderato · *
 
 **max2avg** è la metrica con la ripetibilità migliore (CV% globale 7.88%, MDC% 23.21%), seguita da **max_n** (CV% 11.44%). Le metriche `var_p`, `mad_p` e `var_r` mostrano CV% molto più elevati e devono essere interpretate con cautela.
 
-![Bland-Altman intra-sessione](images/image2.png)
+![Bland-Altman intra-sessione](images/image2.2.png)
 *Figura 2 — Bland-Altman intra-sessione per max_n e max2avg.*
 
 ![CV% intra-sessione per paziente e seno](images/image3.png)
